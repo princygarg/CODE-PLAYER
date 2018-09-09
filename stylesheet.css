@@ -1,0 +1,85 @@
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+		#top {
+			color: black;
+			padding: 5px;
+			height: 35px;
+			background-color: #e60000;
+			width: auto;
+			border: 2px solid black;
+		}
+		#logo {
+			float: left;
+			margin: 2px;
+			padding: 0px;
+			font-size: 25px;
+			font-weight: bold;	
+		}
+		#info {
+			float: right;
+			margin: 0px;
+			padding: 0px;
+			font-size: 20px;
+		}
+		#name {
+			padding: 0px;
+			margin: 5px;
+			opacity: 1;
+		}
+		#bottomcenter {
+			width: 290px;
+			margin: 0 auto;
+		}
+		.toggle {
+			padding: 5px;
+			margin: 0;
+			border: 2px solid #00001a;
+			border-right: none;
+			float: left;
+			cursor: pointer;
+			color: #00001a;
+		}
+		.active {
+			color: #e60000;
+			background-color: #00001a;
+		}
+		#html {
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+		}
+		#output {
+			border-right: 2px solid #00001a;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+		#panelbox {
+			margin: 0px;
+			padding: 0px;
+		}
+		textarea{
+			margin: 0px;
+			padding: 0px;
+			border: 2px solid white;
+			border-top: none;
+			border-left: none;
+			width: 50%;
+			resize: none;
+			background-color: #00001a;
+			color: #80ff00;
+		}
+		iframe {
+			background-color: #00001a;
+			border: none;
+			color: white;
+		}
+		.panel {
+			float: left;
+		}
+		.hidden {
+			display: none;
+		}
+		.highlight {
+			background-color: grey;
+		}
