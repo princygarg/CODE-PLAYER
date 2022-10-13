@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>CODE PLAYER</title>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+
+	<link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+
+</head>
+
+<body>
+
+	<div id = "top">
+		<dir id = "logo">
+			CODE PLAYER
+		</dir>
+
+		<dir id = "bottomcenter">
+			<dir class = "toggle active" id = "html">HTML</dir>
+			<dir class = "toggle" id = "css">CSS</dir>
+			<dir class = "toggle" id = "javascript">JAVASCRIPT</dir>
+			<dir class = "toggle active" id = "output">OUTPUT</dir>
+		</dir>
+	</div>
+
+	<dir id = "panelbox">
+		<textarea id = "htmlpanel" class = "panel"><p id = "para">hello</p></textarea>
+		<textarea id = "csspanel" class = "panel hidden">p{color:red}</textarea>
+		<textarea id = "javascriptpanel" class = "panel hidden">document.getElementById("para").innerHTML = "Hello";</textarea>
+		<iframe id = "outputpanel" class = "panel">output</iframe>
+	</dir>
+
+	<script type = "text/javascript" src = "script.js"></script>
+
+</body>
+
+</html>
